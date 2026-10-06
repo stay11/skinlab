@@ -1,24 +1,37 @@
 # プライバシーポリシー
 
-最終更新日: 2026年8月14日
+最終更新日: 2026年10月4日
 
-**ナチュラル美肌は、利用者のいかなる情報も収集しません。**
-写真も動画も端末の中だけで処理され、外部へ送信されることはありません。
+ナチュラル美肌（以下「本アプリ」）における情報の取り扱いについて説明します。
+**写真も動画も端末の中だけで処理され、外部へ送信されることはありません。**
 
-## 収集する情報
+## 開発者が収集する情報
 
 ありません。
 
-このアプリは、氏名、メールアドレス、電話番号、位置情報、端末の識別子、
-利用状況、そのほかいかなる個人情報も収集しません。
+開発者は、氏名、メールアドレス、電話番号、位置情報、写真、利用状況などを集めるサーバーを持っていません。
+アカウント登録もありません。
 
-## 通信
+## 外部との通信
 
-このアプリはネットワーク通信を一切行いません。
-サーバーを持たず、外部のサービスも利用していません。
-機内モードのままですべての機能をお使いいただけます。
+本アプリが外部と通信するのは、広告を表示するためだけです（次の「広告について」）。
+写真・動画・顔のデータが広告のために送られることはありません。
 
-解析ツール、広告、クラッシュレポートの仕組みも含まれていません。
+- 利用状況の解析（アナリティクス）を行う仕組みは組み込んでいません
+- 加工・撮影・保存は、通信できない状態（機内モードなど）でもすべて使えます
+
+## 広告について
+
+バージョン 1.2 から、ホーム・設定・ミラー・編集画面のツールの一覧・保存したあとの画面に、Google LLC の広告配信サービス「AdMob」による広告を表示します。
+ツールで調整している間と、撮影中の画面には表示しません。初めて保存し終えるまでは表示しません。
+
+AdMob は、広告の表示や効果の測定のために、端末に関する情報（IPアドレス、広告用の識別子など）や、
+広告の表示・操作の記録を収集することがあります。これらの扱いは Google のポリシーに従います。
+
+- [Google のプライバシーポリシー](https://policies.google.com/privacy)
+- [Google のサービスを使用するサイトやアプリから収集した情報の Google による使用](https://policies.google.com/technologies/partner-sites)
+
+本アプリは、端末の広告識別子を使う許可（App Tracking Transparency）を求めていません。
 
 ## 写真・動画・カメラ・マイク
 
@@ -40,8 +53,8 @@
   ファイルにも設定にも書き出しません。処理が終わると同時に破棄されます。
 - **保存しません。** アプリが端末内に残すのは「最近編集した写真」の
   元画像・サムネイル・加工の設定値（数値）だけで、顔の座標は含まれません。
-- **送信しません。** このアプリはネットワーク通信を一切行いません。
-  したがって第三者へ渡ることもありません。
+- **送信しません。** 顔の座標を端末の外へ送ることはありません。本アプリの通信は広告の表示のためだけで、
+  写真や顔のデータは含まれません。したがって第三者へ渡ることもありません。
 - **個人の識別には使いません。** 顔を見分ける・照合する・特徴量（テンプレート）を
   作るといった処理は行いません。同じ人物かどうかを判定する仕組みもありません。
 - **保持期間はありません。** 保存していないため、削除の対象になるものもありません。
@@ -61,7 +74,8 @@ makeup.
 - **Not stored.** The only things the app keeps on device are the source image,
   a thumbnail and the numeric editing settings for "recently edited photos".
   No face coordinates are included.
-- **Not shared or transmitted.** The app performs no network requests of any kind,
+- **Not shared or transmitted.** Face data never leaves the device. The app's only network
+  traffic is for displaying ads (Google AdMob), which never includes photos or face data,
   so face data cannot reach us or any third party.
 - **Not used for identification.** The app does not recognise, match, or build a
   template or faceprint for any person, and has no ability to tell whether two
@@ -71,7 +85,8 @@ makeup.
 
 ## 第三者への提供
 
-ありません。収集していないため、提供するものがありません。
+開発者が収集する情報はないため、提供するものはありません。
+広告の表示のために AdMob が収集する情報については、上の「広告について」をご覧ください。
 
 ## お問い合わせ
 
